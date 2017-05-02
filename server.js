@@ -13,6 +13,7 @@ server.route({
 
 function HandlerFunction(request, reply) {
 	let rep = {
+		version:"v2",
 		response: "pong",
 		timestamp: new Date().getTime()
 	};
